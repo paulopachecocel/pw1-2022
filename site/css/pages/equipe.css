@@ -1,0 +1,48 @@
+@import url('../style.css');
+
+#header.page-quem-somos{
+    background-image: url("../../images/background-equipe.jpg");
+}
+
+/*EQUIPE*/
+#equipe{
+    background-color: #f3f0e6;
+}
+
+#equipe .img-box-round img{
+    width: 120px;
+    height: 120px;
+}
+
+#equipe .img-box-label:before{
+    display: none;
+}
+
+#equipe .row:first-child{
+    margin-bottom: 40px;
+}
+
+.membro{
+    position: relative;
+}
+
+.membro:hover .descricao{
+    display: block;
+}
+
+.membro .descricao{
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    color: white;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 99;
+    width: 400px;
+}
+
+.membro:nth-child(4) .descricao, .membro:nth-child(5) .descricao{
+    left: auto;
+    right: 50%;
+}

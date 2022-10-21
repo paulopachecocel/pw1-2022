@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Great+Vibes&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Great+Vibes&family=Pacifico&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300;400&display=swap');
+@import url("button.css");
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(130,130,130);
+    line-height: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header{
+    width: 100vw;
+    height: 550px;
+    background: #000 no-repeat fixed;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 30px;
+}
+
+#header h1{
+    text-shadow: 2px 2px 8px black;
+    font-size: 54px;
+    color: white;
+}
+
+#header a{
+    color: white;
+}
+
+#header .title{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.link-interno{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+/*lkdsfjlskjfsldkf*/
+#tabela{
+    border: solid 1px black;
+    color: rgba(88, 79, 144, 0.5);
+}
+
+#tabela tbody tr:nth-child(even){
+    background-color: grey;
+}
+#tabela tbody tr:nth-child(odd){
+    background-color: white;
+}
+
+ul li{
+    color: aquamarine;
+}

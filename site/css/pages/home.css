@@ -1,0 +1,44 @@
+@import url(../style.css);
+
+#header.page-home{
+    background-image: url("../../images/background.jpg");
+}
+
+/*PRODUTOS*/
+#produtos, #clientes, #equipe{
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+/*CLIENTES*/
+#clientes{
+    background-color: rgb(242, 242, 242);
+}
+
+#clientes .btn{
+    margin-top: 80px;
+}
+
+#clientes .btn .material-icons{
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+#clientes .container{
+    max-width: 1000px;
+}
+
+/*EQUIPE*/
+#equipe{
+    background-color: rgb(89, 11, 173);
+    color: white;
+}
+
+#equipe .img-box-round img{
+    width: 120px;
+    height: 120px;
+}
+
+#equipe h2:after{
+    background-color: rgb(255, 255, 255);
+}
