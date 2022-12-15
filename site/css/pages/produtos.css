@@ -1,0 +1,34 @@
+@import url('../style.css');
+
+#header.page-quem-somos{
+    background-image: url("../../images/background-equipe.jpg");
+}
+
+/PRODUTOS/
+#produtos{
+    background-color: #f3f0e6;
+}
+
+#produtos .card{
+    border: solid 1px #dbd6c7;
+    background-color: white;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#produtos .card .card-body{
+    height: 300px;
+}
+
+#produtos .card .card-img-top{
+    width: 200px;
+    height: 200px;
+}
+
+#produtos .card #valor-produto{
+    font-size: 22px;
+    font-weight: bold;
+}
+#produtos .card .card-title {
+    font-size: 18px;
+}
